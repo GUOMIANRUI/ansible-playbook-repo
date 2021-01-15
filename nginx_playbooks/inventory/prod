@@ -1,0 +1,10 @@
+[nginx]
+test.tianyiyun.com
+
+[nginx:vars]
+server_name=test.tianyiyun.com
+port=80
+user=deploy
+worker_processes=4
+max_open_file=65505
+root=/www
